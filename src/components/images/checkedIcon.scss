@@ -1,0 +1,25 @@
+.checkIcon{
+  box-sizing: border-box;
+  &>.notChecked{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #b4b4b4;
+    background-color: #ececec;
+  }
+  &>.checked{
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &>svg{
+      fill: white;
+    }
+
+  }
+}
